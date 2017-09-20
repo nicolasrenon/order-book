@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import matching from './utils/matching'
+
+const test = matching({
+  "bids": [
+    [100, 2, 1],
+    [100, 1, 1],
+  ],
+  "asks": [
+    [100, 1, 1],
+    [103, 2, 1],
+  ]
+})
+console.log(test)
+
 class App extends Component {
   render() {
     return (
