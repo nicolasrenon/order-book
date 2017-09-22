@@ -1,0 +1,13 @@
+.OrderBook {
+  text-align: center;
+}
+
+.OrderBook-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.OrderBook-intro {
+  font-size: large;
+}
